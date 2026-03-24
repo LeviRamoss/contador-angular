@@ -1,59 +1,57 @@
-# ContadorApp
+Contador Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.3.
+Este projeto foi desenvolvido com Angular e tem como objetivo demonstrar um contador interativo com manipulação de eventos e interface moderna.
 
-## Development server
-
-To start a local development server, run:
-
-```bash
+Funcionalidades
+➕ Aumentar o contador
+➖ Diminuir o contador
+🔄 Resetar o valor
+🛠️ Tecnologias utilizadas
+Angular (CLI 21.2.3)
+TypeScript
+HTML5
+CSS3
+▶️ Como executar o projeto
+1. Clonar o repositório
+git clone https://github.com/LeviRamoss/contador-angular.git
+2. Acessar a pasta
+cd contador-angular
+3. Instalar dependências
+npm install
+4. Rodar o servidor
 ng serve
-```
+5. Abrir no navegador
+http://localhost:4200/
+📂 Estrutura do projeto
+src/
+ ├── app/
+ │    └── contador/
+ │         ├── contador.component.ts
+ │         ├── contador.component.html
+ │         └── contador.component.css
+ ├── styles.css
+🧠 Aprendizados
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Este projeto aborda conceitos fundamentais do Angular:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
+Data Binding ({{ contador }})
+Event Binding ((click))
+Componentização
+Estilização com CSS
+🧪 Scripts úteis (Angular CLI)
+Servidor de desenvolvimento
+ng serve
+Gerar componentes
+ng generate component nome-do-componente
+Build do projeto
 ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
+Testes
 ng test
-```
 
-## Running end-to-end tests
+👨‍💻 Autor
 
-For end-to-end (e2e) testing, run:
+Levi Ramos
 
-```bash
-ng e2e
-```
+📄 Licença
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Projeto para fins educacionais.
